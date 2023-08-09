@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentina's Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/css-layout/1.1.1/css-layout.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./images/Logo-Valentina-S.png " alt="devValy" class="logo" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav--list">
+          <li class="nav--item"><a href="index.html" class="nav--link">Home</a></li>
+          <li class="nav--item">
+            <a href="index.html#services" class="nav--link">My services</a>
+          </li>
+          <li class="nav--item">
+            <a href="index.html#about" class="nav--link">About me</a>
+          </li>
+          <li class="nav--item">
+            <a href="index.html#work" class="nav--link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="intro">
+      <h1 class="section-title section-title--intro">
+         City Cinema
+      </h1>
+      <p class="section-subtitle section-subtitle--intro">Where Movies Come to Life</p>
+      <img
+        class="intro-img"
+        src="./images/city-cinema.png"
+        alt="city-cinema-picture"
+        style="height: 200px"
+      />
+    </section>
+    <div class="portfolio-btn">
+     <a href="https://github.com/valy4/city-cinema-app"><button class="btn" >See code</button></a>
+         <a href="https://city-cinema.netlify.app/"> <button class="btn">See website</button></a>
+    </div>
+    <div class="portfolio-item-individual">
+        <p class="portfolio-item-description">Powered by React, Axios, and CSS, City Cinema website combines seamless functionality with captivating design. Experience effortless searching and information display as you explore movie details, showtimes, and more.  </p>
+        <h2 class="section-subtitle section-subtitle--intro">Key Features:</h2>
+       <ol>
+        <li><strong>Advanced Search:</strong> Easily find your favorite movies, genres, or showtimes using our intuitive search functionality. Effortlessly navigate through our extensive film collection.</li>
+        <li><strong>Up-to-date Showtimes:</strong> Stay in the loop with real-time showtime updates. Plan your movie outings seamlessly and never miss a screening.</li>
+        <li><strong>Responsive Design:</strong> Enjoy a seamless experience across devices, from desktop to mobile, thanks to the responsive and user-friendly design.</li>
+       </ol>
+       <div class="portfolio-item-imgs">
+        <img style="border:3px solid black; opacity:1" src="./images/city-cinema.png" class="portfolio-img"></img>
+        <img style="border: 3px solid black; opacity:1" src="./images/city-cinema2.png" class="portfolio-img" ></img>
+        </div>
+        <h2 class="section-subtitle section-subtitle--intro">Tech Stack:</h2>
+        <ol>
+            <li><strong>User Interface Components - React.js:</strong> Leveraging React components for seamless and dynamic user interactions.</li>
+            <li><strong>CSS:</strong>  The app's layout, styling, and animations were meticulously crafted using CSS, resulting in an attractive and modern interface.</li>
+            <li><strong>Dynamic Content Rendering:</strong>  CSS for visually engaging movie posters, imagery, and website layout.</li>
+            <li><strong>Search Functionality:</strong> Utilizing React and Axios for real-time search results and efficient data retrieval.</li>
+            <li><strong>RESTful API Integration - Axios:</strong> Seamless integration of a RESTful API using Axios, allowing the website to interact with a backend server and retrieve movie data, showtimes, and other relevant information.</li>
+        </ol>
+        <p>Creating the City Cinema website has enriched my skills in React, Axios, and CSS, while deepening my understanding of user experience design and data integration. This project embodies my dedication to seamless user interfaces and dynamic content, showcasing my ability to transform concepts into functional, captivating digital experiences.</p>
+    </div>
+    <footer class="footer">
+      <a href="mailto:smeu.valentina33@gmail.com" class="footer-link"
+        >smeu.valentina33@gmail.com</a
+      >
+       <ul class="social-list">
+        <!-- <li class="social-list--item">
+          <a class="social-list--link">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+        </li> -->
+        <li class="social-list--item">
+          <a class="social-list--link" href="https://github.com/valy4">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list--item">
+          <a
+            class="social-list--link"
+            href="https://www.linkedin.com/in/valentina-smeu/"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

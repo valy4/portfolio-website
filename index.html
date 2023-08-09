@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentina's Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/css-layout/1.1.1/css-layout.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./images/Logo-Valentina-S.png " alt="devValy" class="logo" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav--list">
+          <li class="nav--item"><a href="#home" class="nav--link">Home</a></li>
+          <li class="nav--item">
+            <a href="#services" class="nav--link">My services</a>
+          </li>
+          <li class="nav--item">
+            <a href="#about" class="nav--link">About me</a>
+          </li>
+          <li class="nav--item">
+            <a href="#work" class="nav--link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="intro" id="home">
+      <h1 class="section-title section-title--intro">
+        Hi, I am <strong>Valentina</strong>
+      </h1>
+      <p class="section-subtitle section-subtitle--intro">Frontend Developer</p>
+      <img
+        class="intro-img"
+        src="./images/personal-website.jpg"
+        alt="Valentina's picture"
+      />
+    </section>
+
+    <section class="my-services" id="services">
+      <h2 class="section-title section-title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design and development</h3>
+          <p>
+            With a blend of creativity and technical expertise, I bring websites
+            to life, making them not just visually stunning but also
+            user-centered and highly functional. Together, let's elevate your
+            digital presence to new heights and captivate your audience like
+            never before.
+          </p>
+        </div>
+        <div class="service">
+          <h3>E-commerce</h3>
+          <p>
+            In the dynamic world of e-commerce, I blend design, functionality,
+            and user psychology to create online shopping experiences that
+            convert browsers into buyers. Let's collaborate to build an
+            e-commerce platform that delights customers and drives your business
+            forward.
+          </p>
+        </div>
+        <div class="service">
+          <h3>WordPress</h3>
+          <p>
+            WordPress is a canvas for limitless possibilities, and I'm here to
+            transform your vision into a captivating reality. Let's collaborate
+            to create a WordPress-powered website that not only meets your needs
+            but also exceeds your expectations.
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">My work</a>
+    </section>
+    <section class="about-me" id="about">
+      <h2 class="section-title section-title--about">Who I am</h2>
+      <p class="section-subtitle section-subtitle--about">
+        Frontend developer based in London
+      </p>
+      <div class="about-me--body">
+        <p>
+          Greetings! I am Valentina, a passionate and forward-thinking front-end
+          web developer dedicated to transforming imaginative designs into
+          captivating digital realities. With a keen eye for aesthetics and a
+          mastery of cutting-edge technologies, I specialize in crafting
+          seamless user experiences that seamlessly blend form and function.
+        </p>
+        <p>
+          My journey in the world of web development began with an insatiable
+          curiosity for the ever-evolving landscape of digital design. Over the
+          years, I've honed my skills in HTML, CSS, and JavaScript, allowing me
+          to breathe life into static designs and bring interactivity to the
+          forefront. My commitment to staying abreast of the latest industry
+          trends ensures that I consistently deliver visually stunning and
+          intuitively navigable websites.
+        </p>
+        <p>
+          When I'm not meticulously crafting code, you might find me exploring
+          the latest design trends, experimenting with new tools, or
+          contributing to open-source projects. With a heart that beats for
+          beautifully functional websites, I am excited to embark on new
+          challenges, push creative boundaries, and continue my journey of
+          creating meaningful connections between users and the digital world.
+        </p>
+      </div>
+      <img src="./images/personal-website.jpg" class="about-me--img" />
+    </section>
+    <section class="my-work" id="work">
+      <h2 class="section-title">My work</h2>
+      <p class="section-subtitle section-subtitle--work">
+        A selection of my range of work
+      </p>
+      <div class="portfolio">
+        <a href="portfolio-weather-app.html" class="portfolio-item">
+          <img src="./images/weather-app.png" class="portfolio-img" />
+        </a>
+        <a href="portfolio-city-cinema.html" class="portfolio-item">
+          <img src="./images/city-cinema.png" class="portfolio-img" />
+        </a>
+        <a href="portfolio-best-movies.html" class="portfolio-item">
+          <img src="./images/best-movies.png" class="portfolio-img" />
+        </a>
+        <a href="portfolio-wonderful-recipes.html" class="portfolio-item">
+          <img src="./images/wonderful-recipes.png" class="portfolio-img" />
+        </a>
+      </div>
+    </section>
+    <footer class="footer">
+      <a href="mailto:smeu.valentina33@gmail.com" class="footer-link"
+        >smeu.valentina33@gmail.com</a
+      >
+      <ul class="social-list">
+        <!-- <li class="social-list--item">
+          <a class="social-list--link">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+        </li> -->
+        <li class="social-list--item">
+          <a class="social-list--link" href="https://github.com/valy4">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list--item">
+          <a
+            class="social-list--link"
+            href="https://www.linkedin.com/in/valentina-smeu/"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

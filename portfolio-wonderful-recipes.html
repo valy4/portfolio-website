@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentina's Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/css-layout/1.1.1/css-layout.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./images/Logo-Valentina-S.png " alt="devValy" class="logo" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav--list">
+          <li class="nav--item"><a href="index.html" class="nav--link">Home</a></li>
+          <li class="nav--item">
+            <a href="index.html#services" class="nav--link">My services</a>
+          </li>
+          <li class="nav--item">
+            <a href="index.html#about" class="nav--link">About me</a>
+          </li>
+          <li class="nav--item">
+            <a href="index.html#work" class="nav--link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="intro">
+      <h1 class="section-title section-title--intro">
+         Wonderful Recipes
+      </h1>
+      <p class="section-subtitle section-subtitle--intro">Culinary Delights</p>
+      <img
+        class="intro-img"
+        src="./images/wonderful-recipes.png"
+        alt="wonderful-recipes-picture"
+        style="height: 200px;"
+      />
+    </section>
+    <div class="portfolio-btn">
+     <a href="https://github.com/valy4/wonderful-recipes-react"><button class="btn" >See code</button></a>
+         <a href="https://wonderful-recipes-react.netlify.app/"> <button class="btn">See website</button></a>
+    </div>
+    <div class="portfolio-item-individual">
+        <p class="portfolio-item-description"> Wonderful Recipes is an ambitious recipes website that I started crafting using React.js and a suite of other essential technologies. While the project remains unfinished, it represents my passion for web development and my commitment to creating an engaging platform for users to explore and indulge in a diverse array of mouthwatering recipes.</p>
+        <h2 class="section-subtitle section-subtitle--intro">Key Features:</h2>
+       <ol>
+        <li><strong>Expansive Recipe Collection: </strong>Wonderful Recipes harnesses the power of the spoonacular API to curate an expansive collection of delectable recipes, catering to a wide range of cuisines, dietary preferences, and skill levels.</li>
+        <li><strong>Interactive User Interface: </strong>Through the adept use of React.js, I began designing an interactive and intuitive user interface that enables users to seamlessly browse, search, and access recipes with ease.</li>
+        <li><strong>Recipe Details and Instructions: </strong>In its current state, each recipe is presented with comprehensive details, including ingredients, step-by-step instructions, cooking time, and serving portions, empowering users to recreate culinary masterpieces in their own kitchens.</li>
+        <li><strong>Dynamic Recipe Cards: </strong>The website showcases recipes through dynamic and visually captivating cards, providing a tantalizing glimpse of each dish and enticing users to explore further.</li>
+        <li><strong>Custom CSS Styling: </strong>I used CSS for custom styling, ensuring the website's visual aesthetics align with its culinary theme and enhance the overall browsing experience.</li>
+    
+       </ol>
+       <div class="portfolio-item-imgs">
+        <img src="./images/wonderful-recipes3.png" class="portfolio-img" style="border:3px solid black;opacity: 1;"></img>
+        <img src="./images/wonderful-recipes2.png" class="portfolio-img" style="border:3px solid black;opacity: 1;"></img>
+        </div>
+        <h2 class="section-subtitle section-subtitle--intro">Tech Stack:</h2>
+        <ol>
+            <li><strong>React.js: </strong>Leveraging the power of React.js, I began employing state management (useState), lifecycle management (useEffect), and modular components to create an interactive and dynamic user interface.</li>
+            <li><strong>CSS and Material UI: </strong>Using CSS and Material UI, I designed custom styles and layouts to craft a visually appealing and engaging user interface that complements the culinary theme.</li>
+            <li><strong>API Integration: </strong>I seamlessly integrated the spoonacular API to source accurate and comprehensive recipe data, transforming raw API responses into user-friendly and informative content.</li>
+        </ol>
+        <p>While this project remains unfinished, it still embodies my dedication to providing an immersive and user-friendly experience, as well as my proficiency in seamlessly integrating APIs to deliver valuable and dynamic content to users.</p>
+    </div>
+    <footer class="footer">
+      <a href="mailto:smeu.valentina33@gmail.com" class="footer-link"
+        >smeu.valentina33@gmail.com</a
+      >
+      <ul class="social-list">
+        <!-- <li class="social-list--item">
+          <a class="social-list--link">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+        </li> -->
+        <li class="social-list--item">
+          <a class="social-list--link" href="https://github.com/valy4">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list--item">
+          <a
+            class="social-list--link"
+            href="https://www.linkedin.com/in/valentina-smeu/"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

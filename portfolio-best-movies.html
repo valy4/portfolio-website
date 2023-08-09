@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentina's Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/css-layout/1.1.1/css-layout.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./images/Logo-Valentina-S.png " alt="devValy" class="logo" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav--list">
+          <li class="nav--item"><a href="index.html" class="nav--link">Home</a></li>
+          <li class="nav--item">
+            <a href="index.html#services" class="nav--link">My services</a>
+          </li>
+          <li class="nav--item">
+            <a href="index.html#about" class="nav--link">About me</a>
+          </li>
+          <li class="nav--item">
+            <a href="index.html#work" class="nav--link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="intro">
+      <h1 class="section-title section-title--intro">
+          MovieFlix Catalog
+      </h1>
+      <p class="section-subtitle section-subtitle--intro">Ultimate Movie Guide</p>
+      <img
+        class="intro-img"
+        src="./images/best-movies.png"
+        alt="MovieFlix"
+        style="height: 200px;"
+      />
+    </section>
+    <div class="portfolio-btn">
+     <a href="https://github.com/valy4/best-movies"><button class="btn" >See code</button></a>
+         <a href="https://best-movies-valy.netlify.app/"> <button class="btn">See website</button></a>
+    </div>
+    <div class="portfolio-item-individual">
+        <p class="portfolio-item-description"> MovieFlix is a feature-rich movie catalog that I developed using a combination of React.js, Material UI, and other cutting-edge technologies. This project was a captivating opportunity for me to delve into the world of front-end development, creating an interactive and visually appealing application that provides users with seamless access to movie information.</p>
+        <h2 class="section-subtitle section-subtitle--intro">Key Features:</h2>
+       <ol>
+        <li><strong>User-Friendly Interface: </strong>With the help of React.js and Material UI, I designed an intuitive and user-friendly interface that ensures smooth navigation and an engaging browsing experience.</li>
+        <li><strong>Search: </strong>Users can search for movies by title allowing them to easily find and discover films that match their preferences.</li>
+        <li><strong>Dynamic Movie Cards: </strong>Each movie is showcased through dynamic and visually appealing cards that display essential information such as title, year, rating, and plot summary.</li>
+        <li><strong>Material UI Styling: </strong>I utilized Material UI components and styling to create a polished and modern aesthetic, enhancing the visual appeal and overall user experience.</li>
+        <li><strong> Details: </strong>Clicking on a movie title opens a detailed view that provides additional information about the movie, including rating and a button to add the movie to your favorite list of movies.</li>
+    
+       </ol>
+       <div class="portfolio-item-imgs">
+        <img src="./images/best-movies.png" class="portfolio-img" style="border:3px solid black;opacity: 1;"></img>
+        <img src="./images/best-movies2.png" class="portfolio-img" style="border:3px solid black;opacity: 1;"></img>
+        </div>
+        <h2 class="section-subtitle section-subtitle--intro">Tech Stack:</h2>
+        <ol>
+            <li><strong>React.js: </strong>Leveraging the power of React.js, I utilized state management (useState), lifecycle management (useEffect), and component architecture to create an interactive and dynamic user interface.</li>
+            <li><strong>CSS and Material UI: </strong>I employed CSS for custom styling and utilized Material UI components and themes to create a visually appealing and cohesive design.</li>
+            <li><strong>OMDB API: </strong>I integrated the OMDB API to fetch accurate and up-to-date movie data, transforming raw API responses into user-friendly and engaging content.</li>
+            <li><strong>Responsive Design: </strong>Using responsive CSS techniques, I ensured the application's layout and components adapt seamlessly to different screen sizes and devices.</li>
+        </ol>
+        <p>This project showcases my ability to harness the capabilities of React.js and Material UI to build a sophisticated and functional web application tailored for movie enthusiasts. MovieFlix represents my dedication to creating a seamless user experience and my expertise in combining multiple technologies to produce a polished and feature-rich movie catalog.</p>
+    </div>
+    <footer class="footer">
+      <a href="mailto:smeu.valentina33@gmail.com" class="footer-link"
+        >smeu.valentina33@gmail.com</a
+      >
+      <ul class="social-list">
+        <!-- <li class="social-list--item">
+          <a class="social-list--link">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+        </li> -->
+        <li class="social-list--item">
+          <a class="social-list--link" href="https://github.com/valy4">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list--item">
+          <a
+            class="social-list--link"
+            href="https://www.linkedin.com/in/valentina-smeu/"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentina's Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/css-layout/1.1.1/css-layout.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./images/Logo-Valentina-S.png " alt="devValy" class="logo" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav--list">
+          <li class="nav--item"><a href="index.html" class="nav--link">Home</a></li>
+          <li class="nav--item">
+            <a href="index.html#services" class="nav--link">My services</a>
+          </li>
+          <li class="nav--item">
+            <a href="index.html#about" class="nav--link">About me</a>
+          </li>
+          <li class="nav--item">
+            <a href="index.html#work" class="nav--link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="intro">
+      <h1 class="section-title section-title--intro">
+         WeatherNow
+      </h1>
+      <p class="section-subtitle section-subtitle--intro">Pocket Weather Forecaster</p>
+      <img
+        class="intro-img"
+        src="./images/weather-app.png"
+        alt="weather-app-picture"
+        style="height: 200px;"
+      />
+    </section>
+    <div class="portfolio-btn">
+     <a href="https://github.com/valy4/weather-app"><button class="btn" >See code</button></a>
+         <a href="https://valy-weather-app.netlify.app/"> <button class="btn">See website</button></a>
+    </div>
+    <div class="portfolio-item-individual">
+        <p class="portfolio-item-description">WeatherNow is a dynamic and user-friendly weather application that I developed using Vanilla JavaScript and CSS. This project was an exciting opportunity for me to enhance my coding skills and create a practical, real-world application. </p>
+        <h2 class="section-subtitle section-subtitle--intro">Key Features:</h2>
+       <ol>
+        <li><strong>Real-Time Weather Data: </strong>WeatherNow utilizes API calls to fetch real-time weather data from reliable sources, ensuring that users receive accurate and up-to-date information.</li>
+        <li><strong>Intuitive User Interface: </strong>The app boasts a clean and visually appealing interface designed with CSS, making it easy for users to navigate and access weather details effortlessly.</li>
+        <li><strong>Responsive Design: </strong>With a focus on responsiveness, WeatherNow seamlessly adapts to different screen sizes, making it accessible across various devices, from smartphones to desktops.</li>
+        <li><strong>Forecast: </strong>Users can input their location or allow the app to access their current location, providing personalized weather forecasts and conditions.</li>
+        <li><strong>Details: </strong>Users can view a comprehensive range of weather information, including current temperature, humidity, wind speed, and more, for the selected location.</li>
+        <li><strong>Visuals: </strong>The app features dynamic background visuals that change based on the weather conditions, enhancing the user experience and providing a visual representation of the weather.</li>
+    
+       </ol>
+       <div class="portfolio-item-imgs">
+        <img src="./images/weather-in-madrid.png"></img>
+        <img src="./images/weather-in-dublin.png"></img>
+        </div>
+        <h2 class="section-subtitle section-subtitle--intro">Tech Stack:</h2>
+        <ol>
+            <li><strong>JavaScript: </strong>I leveraged the power of pure JavaScript to handle data fetching, manipulation, and dynamic content updates, ensuring a smooth and seamless user experience.</li>
+            <li><strong>CSS: </strong>The app's layout, styling, and animations were meticulously crafted using CSS, resulting in an attractive and modern interface.</li>
+            <li><strong>Integration: </strong>I integrated weather APIs to retrieve accurate weather data, translating it into meaningful information for users.</li>
+            <li><strong>Design: </strong>Using responsive CSS techniques, I ensured the app's compatibility with various screen sizes and devices.</li>
+        </ol>
+        <p>This project not only allowed me to deepen my understanding of JavaScript and CSS but also enabled me to create a practical tool that users can rely on to stay informed about the weather conditions in their area. WeatherNow showcases my ability to build functional, visually appealing web applications from scratch using Vanilla JavaScript and CSS.</p>
+    </div>
+    <footer class="footer">
+      <a href="mailto:smeu.valentina33@gmail.com" class="footer-link"
+        >smeu.valentina33@gmail.com</a
+      >
+      <ul class="social-list">
+        <!-- <li class="social-list--item">
+          <a class="social-list--link">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+        </li> -->
+        <li class="social-list--item">
+          <a class="social-list--link" href="https://github.com/valy4">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list--item">
+          <a
+            class="social-list--link"
+            href="https://www.linkedin.com/in/valentina-smeu/"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
